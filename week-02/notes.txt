@@ -1,0 +1,103 @@
+Week 2.3 | Bash and Terminal
+Step 1 | Install WSL (Windows Subsystem for Linux) for Windows
+WSL helps you to use ubuntu terminal inside a window machine,using ubantu commands.
+What is Terminal ?
+Terminal is nothing but another interface (like GUI) to do things on your computer
+COMMANDS
+1. pwd (print working directory)
+		it will print the current working directory
+											OR
+		it will give me path to my current folder
+		
+2. cd (change Directory)
+		it will allow you to go back and forth in folders
+		=> cd Desktop (Go to desktop folder)
+		=> cd Desktop/coding (Go to coding folder inside Desktop)
+		=> cd .. (Go one folder back)
+		=> cd ../.. (Go two folders back)
+		
+(uzmakh@DESKTOP-S2CAAU8:/home$ cd ../   (go to root directory)
+uzmakh@DESKTOP-S2CAAU8:/$ cd mnt
+uzmakh@DESKTOP-S2CAAU8:/mnt$ ls
+c  d  wsl  wslg)
+
+
+3. ls (list)
+		it will list all the files and folders in your current folder
+		
+
+4. mkdir (make directory):
+		it will help you create folders
+		=> mkdir 100xdev (it will create a 100xdev folder)
+		
+5. touch (make files)
+		it will help you create different files
+		=> touch index.js (create an index.js file)
+		=> touch notes.txt (create a notes.txt file)
+
+6. cat (read content of a file)
+		it will read the content of a file in terminal
+		=> cat notes.txt (it will read content of notes.txt)
+		=> cat WEEK2.3/notes.txt (it will read content of notes.text inside WEEK2.3 foler)
+
+
+(uzmakh@DESKTOP-S2CAAU8:/mnt/d/web-development$ cd myFolder
+uzmakh@DESKTOP-S2CAAU8:/mnt/d/web-development/myFolder$ ls
+'hel   lo'
+uzmakh@DESKTOP-S2CAAU8:/mnt/d/web-development/myFolder$ cd hel\ \ \ lo/
+uzmakh@DESKTOP-S2CAAU8:/mnt/d/web-development/myFolder/hel   lo$)
+
+7. vi (vim helps you edit file directly inside a terminal)
+		vim is a super power for all coders. It helps you edit files directly inside the terminal
+		=> vi index.js (open index.js in vim)
+		=> :q! (to came out side from vim)
+		=> :wq! (save the file and came out side from vim)
+	(vim to learn - 2 months)	
+
+8: mv (move files or folder inside another folder)
+		it will move file or folder inside another folder
+		=> mv index.js test1 (move index.js file to text1 folder)
+		=> mv notes.txt test1/newfolder (move notes.txt inside test1/newfolder)
+		=> mv newfolder2 test1 (move newfolder2 to test1 folder)
+
+9: cp (copy files or folder inside another folder)
+		it will copy file or folder inside another folder
+		=> cp index.js test1 (copy index.js file to text1 folder)
+		=> cp notes.txt test1/newfolder (copy notes.txt inside test1/newfolder)
+		=> cp newfolder2 test1 (it will give error cp: -r not specified; omitting directory 'test')
+		we have to use -r flag for resursive folders
+		=> cp -r newfolder2  text1 (copy newfolder2 to test1 folder)
+	
+10. clear
+		it helps you clear your terminal	
+
+FOR THE FOLLOWING COMMANDS YOU HAVE TO INSTALL NODE ON YOU MACHINE - we have to install node for Linux
+
+11. nvm (node version manager)
+		it helps you to install node on you machine
+
+12. node 
+		its opens a shell inside terminal where you can write js
+
+13. node index.js
+		it runs index.js file (fun fact the same thing works on replit when you press the run code button)
+
+14. npm (node package manager)
+		it helps us install external dependency from npm registry
+		=> npm install express
+		or
+		=> npm i express
+-----------------------------------------------------------------
+		Class-2.1 ended at 51:00 
+		Poll for advanced version of Bash/Terminal with WSL-ubuntu
+
+		workers-one core CPUs
+    cluster module for Js - using multi core threads in JS - while scaling every single application
+		use of queues in JS to distribute tasks to cores
+		deployment of backend on EC2 - system design topic- we will further learn it in the coming lectures.
+		Poor Optimization - use of higher tech and softwares for wrong scenario
+		e.g.,
+		Deployment on AWS is not necessarily required for every application.
+
+
+	

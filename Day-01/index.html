@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gender-Based Greeting</title>
+  </head>
+  <body>
+    <h2>Interactive Greeting Program</h2>
+    <script>
+      // let firstName = prompt("Enter your first name.");
+      // let lastName = prompt("Enter your last name.");
+      // let gender = prompt("Enter your gender(male/female/other).toLowercase()");
+      // let greeting;
+
+      // if (gender === "male") {
+      //   greeting = `Hello, Mr. ${firstName} ${lastName}!`;
+      // } else if (gender === "female") {
+      //   greeting = `Hello, Ms. ${firstName} ${lastName}!`;
+      // } else if (gender == "other") {
+      //   greeting = `Hello, ${firstName} ${lastName}!`;
+      // } else {
+      //   greeting = "Invalid gender input. Please enter male, female, or other.";
+      // }
+      // alert(greeting);
+
+      function greetPerson(firstName, lastName, gender) {
+        if (gender === "male") {
+          return `Hello, Mr. ${firstName} ${lastName}!`;
+        } else if (gender === "female") {
+          return `Hello, Ms. ${firstName} ${lastName}!`;
+        } else if (gender == "other") {
+          return `Hello, ${firstName} ${lastName}!`;
+        } else {
+          return;
+          ("Invalid gender input. Please enter male, female, or other.");
+        }
+      }
+
+      // Get user input using prompt
+      let firstName = prompt("Enter your first name:");
+      let lastName = prompt("Enter your last name:");
+      let gender = prompt(
+        "Enter your gender (male/female/other).toLowerCase()"
+      );
+      // let greeting = greetPerson("John", "Doe", "male");
+      // Call the function with user input
+      let greeting = greetPerson(firstName, lastName, gender);
+
+      alert(greeting);
+      // Usage Example
+      console.log(greetPerson("John", "Doe", "male"));
+      console.log(greetPerson("Jane", "Smith", "female"));
+      console.log(greetPerson("Alex", "Johnson", "other"));
+      console.log(greetPerson("Sam", "Brown", "unknown"));
+    </script>
+  </body>
+</html>

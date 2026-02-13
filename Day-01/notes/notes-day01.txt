@@ -1,0 +1,139 @@
+WEEK-01
+Lecture-1.2  JS Foundation
+
+Why languages?
+Interpreted vs compiled languages
+Why JS >> Other languages in some use-cases
+Strict vs dynamic languages
+Single threaded nature of JS
+Simple primitives in JS (number, strings, booleans)
+Complex primitives in JS (arrays, objects)-non-primitives/reference types
+Functions in Javascript
+Practise problem solving
+
+
+Why Languages?
+In our computer, theres a resistor and in which capacitor is installed(hardwares)-computer electronics-on motherboard-there are small outgrowth types circles - micro chips
+All electronic devices understand binary lang - 0 & 1
+To communicate with computer, we can't write 0 & 1 in words or sentences. To get computers understand our instructions, languages were introduced, like java, C++, python, JavaScript etc.
+We need a translator-that is known as compiler or/n Interpreter in computer world.These translators translate human-understanding languages to machine code (01010011 etc.)
+Computers do not understand human language, so people use programming languages to translate directions into binary code that computer devices can follow as apps, websites, and software programs. Coding plays a crucial role in our increasingly digital world. Many aspects of modern life rely on coding. 
+Why SSDs and RAM aren't the same.
+https://www.tiktok.com/@philipfinch808/video/7556126870186593550
+
+Our all programs in computer are placed/stored in SSD(hard drive) and when we d-click on it, it opens and converted to machine-code on RAM.
+A program can never execute on SSD as it is slow as compared to RAM- RAM is used to execute programs - .exe files
+
+SSD has large memory and RAM has low memory.
+SSD is used to store data of programs and  RAM to execute it.
+SSD-> 1TB
+RAM -> 8GB
+
+15:15 : VLC media player code is open-source and is present on github.
+
+1-so languages are used to write applications.
+2- deveopers do write high-level code in these languages, to make them understandable to humans, 
+3- every language has a compiler which converts the code of the language to 01-machine language
+
+computeer Languages (C++, Python, Js,Ruby, etc.,)--------->Compiler/Interpreter ---------> 01010001101-------> SSD/RAM(computer)
+
+18:26
+Difference between Interpreter and Compiler:
+compile-based code:
+3-step process
+step-1 write code
+step 2 compile it
+step-3 run it to execute in RAM
+(Compiler converts language to ML at a time and then executes it)
+Compiler makes a new file in your folder structure to contain ML-code
+interpreter-based code:  like JS, Python
+converts into ML line by line 
+and executes at that time, no need to create an ML-code file
+It runs directly after interpreting  - till 23:36
+
+Compiled Languages
+1-First nedd to compile then to run
+// This file contains notes related to web development, specifically from a 36-week remote job course.
+// The notes mention that code usually doesn't compile if there's an error.
+2- Usually don't compile, if there's an error in the code
+3- Examples C++,Java,Rust,Golang
+4-Hard to learn
+
+Interpreted Languages
+1- Usually go line by line
+2- can run partially if error is there in the code
+3-Example JS, Python
+4-Easy to learn
+
+Video#3
+Next video continued the topic till 6:50
+At 7:15 Why JavaScrip is better to learn than other languages?
+- Browsers can easily understand JS for the js-engines they have,
+- Js can be used in both frontend and backend side(thanks to Nodejs)
+- Js can be widely used in web as well as android apps development(React Native).
+- (Electron.js is a framework used for building cross-platform for desktop development-No need to create separate applications for each operating system like Windows, macOS, and Linux )
+- An imp Interview question: Can frontend be written in other languages also?
+ Other languages can also be used for frontend (browsers)
+ e.g.,
+Figma header (In Reactjs)
+Figma screen(C++)
+
+Frontend can be written in any computer language- that language needed to be compiled with assembly language - web assembly which browser can understand. Compile it with web assembly to be understandable by browser.
+Summary:
+Our browser directly understands html,css and JS. But
+where speed is required, do write code in C++, compile it with web assembly to get browser understand it to run on frontend.
+C++ is near to hardware so its speed is faster than other languages.
+C++ is mid-level language.
+
+14:53  Static and Dynamic (Strict vs loose) languages
+C++ is strict one
+JS is loosely type.
+TS makes JS strict 
+TS tranpiles into JS code to run.It does not run directly.
+
+19:25 Single-Threaded Nature of JS
+
+A language can be run on multiple cores in a CPU- But Js can only run on a single core of CPU-it uses one of cores at a time. This is single thresded-considered to be bad for scalable systems.
+There is a way to make it use all cores of your machine - cluster module in JS - HOMEWORK (to know about it)
+## ASSIGMENT
+
+- What is cluster module in js
+
+
+
+29:04 JAVASCRIPT-
+ Variables - declared with let, const and var
+ Data Types - strings, numbers, booleans
+ typeof - to know the type of Variables
+
+ Reference types of Data-Types-Array
+(Non-primitive)
+49:05  Functions-reusable performance in code
+
+? short-keys
+cntrl + ` (for terminal open n close)
+cntrl + B (for side-panel open n close)
+cntrl + f4 ( for above open/close files)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
