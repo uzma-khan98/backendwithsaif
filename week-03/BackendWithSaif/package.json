@@ -1,18 +1,25 @@
 {
-  "name": "backendwithsaif",
+  "name": "week-03",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"node --watch server.js"
-  },
-  "keywords": ["coding", "web-development","backend", "nodejs", "expressjs"],
+    "dev": "node --watch server.js"
+    },
+  "keywords": [
+    "coding",
+    "web-development",
+    "backend",
+    "nodejs",
+    "expressjs"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "learning JWT",
   "dependencies": {
     "express": "^5.1.0",
     "zod": "^4.1.12"
-  }
+  },
+  "devDependencies": {}
 }

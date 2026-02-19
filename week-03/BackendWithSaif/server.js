@@ -147,6 +147,7 @@ app.get("/api/weather", (req, res) => {
   });
 });
 
+
 // to instruct the server to listen the port
 app.listen(3000, () => {
   console.log("Our app is running on port 3000");

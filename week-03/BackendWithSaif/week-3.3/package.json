@@ -1,0 +1,17 @@
+{
+  "name": "week-3.3",
+  "version": "1.0.0",
+  "description": "Learning JWT",
+  "main": "index1.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
